@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Page -->
+  <url>
+    <loc>https://www.keontaycurry.com/</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Impact Section -->
+  <url>
+    <loc>https://www.keontaycurry.com/#impact</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Expertise Section -->
+  <url>
+    <loc>https://www.keontaycurry.com/#expertise</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Skills Section -->
+  <url>
+    <loc>https://www.keontaycurry.com/#skills</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Experience Section -->
+  <url>
+    <loc>https://www.keontaycurry.com/#experience</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Certifications Section -->
+  <url>
+    <loc>https://www.keontaycurry.com/#certifications</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contact Section -->
+  <url>
+    <loc>https://www.keontaycurry.com/#contact</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+</urlset>
