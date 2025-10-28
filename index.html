@@ -1152,7 +1152,7 @@
             <div class="timeline-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/WorkExperience">
                 <div class="timeline-header">
                     <div class="company-name" itemprop="hiringOrganization">U.S. Air Force National Guard</div>
-                    <div class="role-title" itemprop="jobTitle">Cybersecurity Operations Leader</div>
+                    <div class="role-title" itemprop="jobTitle">Cybersecurity Operations Leader (Master Sergeant, E-7)</div>
                     <div class="timeline-date">
                         <time itemprop="startDate" datetime="2016">2016</time> - <time itemprop="endDate" datetime="2025">Present</time>
                     </div>
@@ -1218,7 +1218,7 @@
                 </div>
                 <div class="contact-method">
                     <span>📍</span>
-                    <span>Louisville, Ky</span>
+                    <span>Charlestown, IN</span>
                 </div>
             </div>
             <a href="mailto:contact@keontaycurry.com" class="btn btn-primary">Send Email</a>
@@ -1230,7 +1230,7 @@
     </footer>
 
     <script>
-        // Intersection Observer for animations
+        // Intersection Observer for animations - triggers on scroll up AND down
         const observerOptions = {
             threshold: 0.15,
             rootMargin: '0px 0px -100px 0px'
@@ -1240,6 +1240,10 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
+                } else {
+                    // Remove 'visible' class when element leaves viewport
+                    // This allows animation to re-trigger when scrolling back
+                    entry.target.classList.remove('visible');
                 }
             });
         }, observerOptions);
